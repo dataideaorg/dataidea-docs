@@ -26,7 +26,7 @@ title: Home
 
 - :material-file-document: **Logging & Documentation**
 
-    Best practices for documenting your code and projects in data science and web development.
+    Best tools for logging project events and llm interactions in data science and web development.
     
     [:octicons-arrow-right-24: Logger Documentation](./Logger/1_logging_events/)
 
