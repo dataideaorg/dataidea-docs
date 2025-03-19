@@ -16,8 +16,16 @@ markdown_extensions:
   - pymdownx.superfences
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.footer
+    - navigation.top
+    # - navigation.tabs
+    - navigation.expand
+    # - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+
   font:
     text: DM Sans
     code: DM Mono
@@ -27,14 +35,15 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: "green"
-      accent: deep purple
-
+      primary: custom
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: "green"
-      accent: deep orange
+      primary: custom
+extra_css:
+  - styles/custom.css
+extra:
+  generator: false
 #

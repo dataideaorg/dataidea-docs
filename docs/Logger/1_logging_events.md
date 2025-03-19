@@ -1,4 +1,8 @@
-# Logging Events 
+---
+title: Logging Events
+author: Your Name
+date: "2025-19-03"
+---
 
 Make sure you have the dataidea package installed. You can install as 
 

@@ -1,0 +1,40 @@
+:root {
+    --md-primary-fg-color: #008374;
+    --md-primary-fg-color--light: #00a891;
+    --md-primary-fg-color--dark: #00695c;
+    --md-accent-fg-color: #008374;
+}
+
+footer {
+    background-color: #000; /* Dark background */
+    color: #fff; /* White text */
+    padding: 15px 20px; /* Increased padding for better spacing */
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(255, 255, 255, 0.1); /* Soft shadow effect */
+}
+
+/* Ensure the footer is always at the bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of the viewport */
+}
+
+main {
+    flex: 1; /* Pushes the footer down */
+}
+
+/* Make links look better */
+footer a {
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
