@@ -37,4 +37,60 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Card grid styling */
+.grid.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    margin: 2rem 0;
+}
+
+.grid.cards > * {
+    border-radius: 0.2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+    margin: 0;
+    transition: all 0.3s ease;
+    border-left: 4px solid var(--md-primary-fg-color);
+}
+
+.grid.cards > *:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.grid.cards p {
+    margin-bottom: 1rem;
+}
+
+.grid.cards a {
+    color: var(--md-primary-fg-color);
+    font-weight: bold;
+}
+
+/* Contact info styling */
+.contact-info {
+    background-color: #008374;
+    border-radius: 0.2rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    color: #fff;
+    margin-top: 0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
 

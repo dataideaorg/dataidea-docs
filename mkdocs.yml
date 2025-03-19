@@ -2,8 +2,6 @@ site_name: DATAIDEA DOCS
 site_url: https://docs.dataidea.org/
 site_author: Juma Shafara
 site_description: DATAIDEA Documentation
-site_author_email: jumashafara@gmail.com
-site_author_github: https://github.com/jumashafara
 
 markdown_extensions:
   - pymdownx.superfences
@@ -19,6 +17,12 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 theme:
   favicon: assets/logo.png
   logo: assets/logo.png
@@ -42,6 +46,11 @@ theme:
 
     # announcements
     - announce.dismiss
+    
+    # content
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
 
   # fonts
   font:
@@ -69,4 +78,20 @@ extra_css:
 extra:
   generator: false
   homepage: https://www.dataidea.org/
-#
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/dataidea
+      name: DATAIDEA on Twitter
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/dataidea
+      name: DATAIDEA YouTube Channel
+    - icon: fontawesome/solid/envelope
+      link: mailto:dataideaorg@gmail.com
+      name: Contact us by email
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true
