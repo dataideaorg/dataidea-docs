@@ -1,5 +1,10 @@
 site_name: DATAIDEA DOCS
 site_url: https://docs.dataidea.org/
+site_author: Juma Shafara
+site_description: DATAIDEA Documentation
+site_author_email: jumashafara@gmail.com
+site_author_github: https://github.com/jumashafara
+
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
@@ -15,20 +20,35 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 theme:
+  favicon: assets/logo.png
+  logo: assets/logo.png
   name: material
+  # customization
   custom_dir: overrides
+
+  # features
   features:
+    # header
+    - header.autohide
+
+    # navigation
     - navigation.footer
     - navigation.top
-    # - navigation.tabs
+    - navigation.tabs
     - navigation.expand
     # - navigation.sections
     - navigation.indexes
     - content.code.copy
 
+    # announcements
+    - announce.dismiss
+
+  # fonts
   font:
     text: DM Sans
     code: DM Mono
+
+  # palette
   palette:
     # Dark Mode
     - scheme: slate
@@ -42,8 +62,11 @@ theme:
         icon: material/weather-night
         name: Light mode
       primary: custom
+
+# extra
 extra_css:
   - styles/custom.css
 extra:
   generator: false
+  homepage: https://www.dataidea.org/
 #

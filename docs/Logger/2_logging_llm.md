@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Logging LLM Interractions
 
 Make sure you have the dataidea package installed. You can install as 

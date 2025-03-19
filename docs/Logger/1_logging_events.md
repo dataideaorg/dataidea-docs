@@ -1,8 +1,8 @@
 ---
-title: Logging Events
-author: Your Name
-date: "2025-19-03"
+comments: true
 ---
+
+# Logging Events
 
 Make sure you have the dataidea package installed. You can install as 
 
