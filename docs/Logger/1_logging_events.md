@@ -12,7 +12,8 @@ pip install -U dataidea
 
 !!! note Signup
 
-    You also need an api key, which you can get from the [dataidea logger website](https://logger.dataidea.org)
+    You also need an api key and a project for your logs, you can create them from the [dataidea logger website](https://logger.dataidea.org)
+
 
 Setup your api key in a dot env file with a name like DATAIDEA_API_KEY
 
@@ -31,6 +32,7 @@ from dataidea.logger import event_log
 
 event_log({
         'api_key': api_key,
+        'project': 'test' 
         'user_id': '1234567890',
         'message': 'This is a test message',
         'level': 'info',
