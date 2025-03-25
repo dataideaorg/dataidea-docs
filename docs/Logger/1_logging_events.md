@@ -32,10 +32,10 @@ from dataidea.logger import event_log
 
 event_log({
         'api_key': api_key,
-        'project': 'test' 
-        'user_id': '1234567890',
+        'project_name': 'Test Project',
+        'user_id': '1234567890', # optional
         'message': 'This is a test message',
         'level': 'info',
-        'metadata': {'test': 'test'}
+        'metadata': {'test': 'test'} # optional
     })
 ```

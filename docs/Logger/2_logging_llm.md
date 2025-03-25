@@ -32,6 +32,7 @@ from dataidea.logger import llm_log
 
 llm_log({
         'api_key': api_key,
+        'project_name': 'Test Project',
         'user_id': '1234567890',
         'source': 'gpt-4o',
         'query': 'This is a test query',
