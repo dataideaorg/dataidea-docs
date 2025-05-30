@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://docs.dataidea.org/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.dataidea.org/Datasets/loading_datasets/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.dataidea.org/Logger/1_logging_events/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.dataidea.org/Logger/2_logging_llm/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.dataidea.org/Models/loading_models/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.dataidea.org/YouTube/download_youtube/</loc>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+</urlset>
