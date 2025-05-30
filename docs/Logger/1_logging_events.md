@@ -25,11 +25,23 @@ import os
 api_key = os.getenv('DATAIDEA_API_KEY')
 ```
 
+## Import `event_log` method.
+
+We use this method for logging our data. It can be imported directly as:
+
+```py title='Import event_log directly'
+from dataidea import event_log
+```
+
+It can also be imported via its utils module
+
+```py title="import event_log via utils module"
+from dataidea.utils.logging import event_log
+```
+
 ## Log an event
 
 ```py title="Log an event"
-from dataidea.logger import event_log
-
 event_log({
         'api_key': api_key,
         'project_name': 'Test Project',

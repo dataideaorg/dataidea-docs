@@ -11,9 +11,25 @@ pip install -U dataidea
 ```
 
 ```py title="Download a video"
-from dataidea.youtube import download
+# %% load the function
+from dataidea import download_youtube
 
-download(url='https://www.youtube.com/watch?v=jJcqew3dQ9g')
+# %% Download a YouTube video
+download(
+    url="https://www.youtube.com/watch?v=9bZkp7q19f0",
+    output_folder=".",)
+```
+
+## Another way
+
+```py title="Download a video"
+# %% load the download function
+from dataidea.io.youtube import download
+
+# %% Download a YouTube video
+download(
+    url="https://www.youtube.com/watch?v=9bZkp7q19f0",
+    output_folder=".",)
 ```
 
 ## Parameters
